@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "fireship-angular",
+      "public": "dist/fireship-angular",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
