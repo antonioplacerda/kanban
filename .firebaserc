@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "quizzapp-fae38": {
+      "hosting": {
+        "fireship-angular": [
+          "quizzapp-fae38"
+        ]
+      }
+    }
+  }
+}
