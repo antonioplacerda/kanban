@@ -13,9 +13,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 import { ShellComponent } from './shell/shell.component';
+import { DeleteButtonComponent } from './delete-button/delete-button.component';
 
-
-const components = [ShellComponent];
+const components = [ShellComponent, DeleteButtonComponent];
 
 const modules = [
   LayoutModule,
@@ -31,11 +31,11 @@ const modules = [
   MatInputModule,
   MatSnackBarModule,
   RouterModule,
-  CommonModule
+  CommonModule,
 ];
 
 @NgModule({
-  declarations: [...components, ShellComponent],
+  declarations: [...components],
   imports: [...modules],
   exports: [...components, ...modules],
 })
